@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    border: 1px solid black;
+    height: 100vh;
+}
+
+.butn{
+    padding: 12px 23px;
+    border-radius: 12px;
+    border: none;
+    margin: 3px;
+}
+.butn:hover{
+    background-color: rgb(228, 225, 161);
+}
+.eql{
+padding: 12px 127px;
+margin-top: 12px;
+border: none;
+border-radius: 12px;
+}
+.eql:hover{
+    background-color: rgb(220, 232, 108);
+
+}
+input{
+padding: 14px 40px;
+margin: 12px;
+direction: rtl;
+margin-left: 3px;
+border-radius: 12px;
+}
